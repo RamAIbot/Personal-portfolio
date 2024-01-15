@@ -56,68 +56,82 @@ import intel_logo from '../assets/images/intel_logo.png'
 import tcs_logo from '../assets/images/tcs_logo.png'
 import en_logo from '../assets/images/en_img.png'
 import csir_logo from '../assets/images/csir_logo.png'
+import {Breadboard} from "./hardwareprojects/Breadboard";
+import {Lanedetection} from "./AIprojects/Lanedetection";
 export const Projects = () => {
 
     const projects = [
         {
             title: "Cache hierarchy Modeling",
             description: "Microprocessor Architecture",
-            imgUrl: cache_img
+            imgUrl: cache_img,
+            buttonUrl: "/CacheHierarchy"
         },
         {
             title: "Branch predictor Modeling",
             description: "Microprocessor Architecture",
-            imgUrl: branch_img
+            imgUrl: branch_img,
+            buttonUrl: "/BranchPrediction"
         },
         {
             title: "Dynamic Instruction Scheduler",
             description: "Microprocessor Architecture",
-            imgUrl: ooo
+            imgUrl: ooo,
+            buttonUrl: "/InstructionScheduler"
         },
         {
             title: "Parallel Radix Sort",
             description: "Parallel Computer Architecture",
-            imgUrl: radix_sort
+            imgUrl: radix_sort,
+            buttonUrl: "/ParallelRadixSort"
         },
         {
             title: "Cache Coherence Modeling",
             description: "Parallel Computer Architecture",
-            imgUrl: cache_coherence
+            imgUrl: cache_coherence,
+            buttonUrl: "/CacheCoherence"
         },
         {
             title: "Binary Convolution RTL design",
             description: "ASIC and FPGA design",
-            imgUrl: bconv
+            imgUrl: bconv,
+            buttonUrl: "/BinaryConvolution"
         },
         {
             title: "Trace cache modeling - research",
-            description: "Advanced Mircoarchitecture",
-            imgUrl: trace
+            description: "Advanced Mirco-architecture",
+            imgUrl: trace,
+            buttonUrl: "/TraceCache"
         },
         {
             title: "I2C Verification",
             description: "ASIC Verification",
-            imgUrl: i2c
+            imgUrl: i2c,
+            buttonUrl: "/IICVerification"
         },
         {
             title: "SRAM design and layout",
             description: "VLSI System design",
-            imgUrl: sram
+            imgUrl: sram,
+            buttonUrl: "/VLSISYstem"
         },
         {
             title: "LC3 Verification",
             description: "Advanced Verification in UVM",
-            imgUrl: lc3
+            imgUrl: lc3,
+            buttonUrl: "/UVM"
         },
         {
             title: "LLVM Compiler development",
             description: "Compiler optimization and scheduling",
-            imgUrl: llvm
+            imgUrl: llvm,
+            buttonUrl: "/LLVM"
         },
         {
             title: "Deep Learning",
             description: "Neural Networks",
-            imgUrl: nn
+            imgUrl: nn,
+            buttonUrl: "/DeepLearning"
         }
 
     ]
@@ -127,27 +141,32 @@ export const Projects = () => {
         {
             title: "8 bit breadboard computer",
             description: "Computer architecture and circuit design",
-            imgUrl: bb
+            imgUrl: bb,
+            buttonUrl: "/Breadboard"
         },
         {
             title: "Chip8 emulator",
             description: "Emulator development",
-            imgUrl: chip8
+            imgUrl: chip8,
+            buttonUrl: "/Chip"
         },
         {
             title: "RISCV RTL design",
             description: "Hardware Workshop",
-            imgUrl: riscv
+            imgUrl: riscv,
+            buttonUrl: "/RiscvRTL"
         },
         {
             title: "RTL design synthesis",
             description: "Hardware Workshop - YOSYS tool",
-            imgUrl: synth
+            imgUrl: synth,
+            buttonUrl: "/RTLSynthesis"
         },
         {
             title: "RISCV Physical design",
             description: "Hardware Workshop - OPENROAD flow",
-            imgUrl: pd
+            imgUrl: pd,
+            buttonUrl: "/PhysicalDesign"
         },
         {
             title: "Embedded Systems Application Specialization",
@@ -167,82 +186,99 @@ export const Projects = () => {
         {
             title: "Basic Lane detection",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: basic_lane
+            imgUrl: basic_lane,
+            buttonUrl: "/Lanedetection"
         },
         {
             title: "Advanced Lane detection",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: adv_lane
+            imgUrl: adv_lane,
+            buttonUrl: "/Advancedlane"
         },
         {
             title: "Traffic Sign Classification",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: traffic
+            imgUrl: traffic,
+            buttonUrl: "/Traffic"
         },
         {
             title: "Behavioral Cloning",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: behavior
+            imgUrl: behavior,
+            buttonUrl: "/BehaviouralClone"
         },
         {
             title: "Sensor Fusion - Kalman Filtering",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: kf
+            imgUrl: kf,
+            buttonUrl: "/EKF"
         },
         {
             title: "Particle filter localization",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: pf
+            imgUrl: pf,
+            buttonUrl: "/Vehiclelocalization"
         },
         {
             title: "Highway driving - State Machine",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: highway
+            imgUrl: highway,
+            buttonUrl: "/Highway"
         },
         {
             title: "PID Controller",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: pid
+            imgUrl: pid,
+            buttonUrl: "/PidControl"
         },
         {
             title: "System Integration",
             description: "Self Driving Car Engineering Nanodegree - Udacity",
-            imgUrl: system
+            imgUrl: system,
+            buttonUrl: "/SystemIntegration"
         },
         {
             title: "Arm Mover - 2 joints",
             description: "Robotic Operating System Nanodegree - Udacity",
-            imgUrl: arm
+            imgUrl: arm,
+            buttonUrl: "/Robotichand"
         },
         {
             title: "Localization of the Robot",
             description: "Robotic Operating System Nanodegree - Udacity",
-            imgUrl: local
+            imgUrl: local,
+            buttonUrl: "/RobotLocalization"
         },
         {
             title: "Robotic Mapping",
             description: "Robotic Operating System Nanodegree - Udacity",
-            imgUrl: mapping
+            imgUrl: mapping,
+            buttonUrl: "/RoboticMapping"
+
         },
         {
             title: "Simultaneous localization and mapping (SLAM)",
             description: "Robotic Operating System Nanodegree - Udacity",
-            imgUrl: slam
+            imgUrl: slam,
+            buttonUrl: "/SLAM"
         },
         {
             title: "Navigation - Value based methods",
             description: "Deep Reinforcement learning nanodegree- Udacity",
-            imgUrl: banana
+            imgUrl: banana,
+            buttonUrl: "/Navigation"
         },
         {
             title: "Continuous Control - Policy based methods",
             description: "Deep Reinforcement learning nanodegree- Udacity",
-            imgUrl: con_control
+            imgUrl: con_control,
+            buttonUrl: "/ContinousControl"
         },
         {
             title: "Collaboration - Multi-agent RL",
             description: "Deep Reinforcement learning nanodegree- Udacity",
-            imgUrl: colab
+            imgUrl: colab,
+            buttonUrl: "/Collaboration"
         },
         {
             title: "Natural Language Processing",
@@ -257,7 +293,8 @@ export const Projects = () => {
         {
             title: "E-commerce website development",
             description: "Full stack web development - coursework NIIT",
-            imgUrl: ecom
+            imgUrl: ecom,
+            buttonUrl: "/Ecommerce"
         },
 
     ]

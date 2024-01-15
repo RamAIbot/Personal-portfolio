@@ -244,6 +244,7 @@ nav.navbar {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -277,6 +278,50 @@ nav.navbar {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+.grad_project
+{
+  background-image: url('./assets/images/grad_background1_img.png');
+  height: 100vh;
+  background-size: cover;
+}
+.hardware_project
+{
+  background-image: url('./assets/images/hardware_background.png');
+  height: 100vh;
+  background-size: cover;
+
+}
+.project_text_class
+{
+  text-align: left;
+  font-size: large;
+  padding: 20px;
+
+}
+.ai_project
+{
+  background-image: url('./assets/images/AI_background.png');
+  height: 100vh;
+  background-size: cover;
+}
+.ai_project_robotics
+{
+  background-image: url('./assets/images/robot_background.png');
+  height: 100vh;
+  background-size: cover;
+}
+.ai_project_rl
+{
+  background-image: url('./assets/images/RL_background.png');
+  height: 100vh;
+  background-size: cover;
+}
+.ai_project_coding
+{
+  background-image: url('./assets/images/coding_background.png');
+  height: 100vh;
+  background-size: cover;
 }
 /*scrolled*/
 /*active-navbar-link*/
