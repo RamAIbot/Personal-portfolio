@@ -33,6 +33,8 @@ import slam from '../assets/images/slam_img.png'
 import banana from '../assets/images/nav1_img.png'
 import con_control from '../assets/images/cc_img.png'
 import colab from '../assets/images/colab_img.png'
+import nlp_img from '../assets/images/nlp_image_icon.png'
+import tamil_img from '../assets/images/tamil_class_img.png'
 import pic from '../assets/images/pic_img.png'
 import ecom from '../assets/images/ecomm_img.png'
 import qml1 from '../assets/images/qml1_img.png'
@@ -171,12 +173,14 @@ export const Projects = () => {
         {
             title: "Embedded Systems Application Specialization",
             description: "In-Plant training on 8051, PIC, AVR and ARM based microcontrollers - HCL Technologies",
-            imgUrl: emb
+            imgUrl: emb,
+            buttonUrl: "/EmbeddedSystems"
         },
         {
             title: "Asthma Trigger Detection System",
             description: "(All India Winner) Portable module for sensing Asthma trigger elements using IOT- Smart India Hackathon 2018 five day Hardware edition ",
-            imgUrl: sih
+            imgUrl: sih,
+            buttonUrl: "/SIH"
         },
 
     ]
@@ -283,12 +287,14 @@ export const Projects = () => {
         {
             title: "Natural Language Processing",
             description: "Natural Language Processing specialization- Coursera",
-            imgUrl: colab
+            imgUrl: nlp_img,
+            buttonUrl: "/NLPProject"
         },
         {
             title: "Tamil Character detection",
             description: "Deep learning image classifier - Kaggle (PadhAI)",
-            imgUrl: colab
+            imgUrl: tamil_img,
+            buttonUrl: "/TamilClassification"
         },
         {
             title: "E-commerce website development",
@@ -303,73 +309,85 @@ export const Projects = () => {
         {
             title: "Quantum Machine learning - MRI classification",
             description: "iGEM 2023 competition - Dry Lab",
-            imgUrl: qml1
+            imgUrl: qml1,
+            buttonUrl:"/IgemHypo1"
         },
         {
             title: "Quantum Machine learning - Drug-target classification",
             description: "iGEM 2023 competition - Dry Lab",
-            imgUrl: qml2
+            imgUrl: qml2,
+            buttonUrl: "/IgemHypo2"
         },
         {
             title: "Quantum Machine learning for Dementia classification",
             description: "Developing QML models to run on 32 Qubits simulator and performance analysis - Fujitsu $100K Quantum Simulation Challenge 2023",
-            imgUrl:fujit
+            imgUrl:fujit,
+            buttonUrl: "/FuProject"
         },
         {
             title: "Mach Zehnder Modulator design and layout",
             description: "Photonic Integrated Circuit - edX MITx 3.46.2x",
-            imgUrl:pic
+            imgUrl:pic,
+            buttonUrl: "/MZM"
         },
         {
             title: "Error Mitigation and QAOA implementation",
             description: "Perceval DV Quantum Computing  - QOSF Mentorship 2023",
-            imgUrl:dvqc
+            imgUrl:dvqc,
+            buttonUrl: "/Qosf"
         },
         {
             title: "Implementation of BB84 protocol",
             description: "Secure Quantum Network Protocol Simulation - QuNetSim",
-            imgUrl:qn
+            imgUrl:qn,
+            buttonUrl: "/Opensource1"
         },
         {
             title: "Implementation of distributed QML training and inference",
             description: "QML distribution between quantum computers simulation - Covalent",
-            imgUrl:covalent
+            imgUrl:covalent,
+            buttonUrl: "/Opensource2"
         },
         {
             title: "Sentence category detection - QNLP",
             description: "QNLP model training and inference - Lambeq",
-            imgUrl:lambeq
+            imgUrl:lambeq,
+            buttonUrl: "/QNLP"
         },
         {
             title: "QML using VQC and Kernel methods",
             description: "Supervised learning classification using QML - HAQS 2022",
-            imgUrl:haqs1
+            imgUrl:haqs1,
+            buttonUrl: "/HaqsQML"
         },
         {
             title: "Amplitude Embedding implementation",
             description: "(Winner) Implementation of classical to quantum feature transformation circuit - HAQS (QOSF) 2022",
-            imgUrl:haqs2
+            imgUrl:haqs2,
+            buttonUrl: "/AmpEmbedding"
         },
-        {
-            title: "Quantum Music Generation",
-            description: "(Runner Up) Implementation of QML for generating beats and music - iQuHACK 2023 MIT inperson",
-            imgUrl:iquhack
-        },
+        // {
+        //     title: "Quantum Music Generation",
+        //     description: "(Runner Up) Implementation of QML for generating beats and music - iQuHACK 2023 MIT inperson",
+        //     imgUrl:iquhack
+        // },
         {
             title: "Quantum-Dot digital design",
             description: "Design of 1-Bit Half and Full Subtractor using Quantum-Dot Cellular Automata(QCA) - IEEE pub. DOI: 10.1109/ICPCSI.2017.8392132",
-            imgUrl:qca
+            imgUrl:qca,
+            buttonUrl: "/Quantumdots"
         },
         {
             title: "Superconducting Qubits design fundamentals",
             description: "Quantum Hardware design course - C2QA",
-            imgUrl:c2q
+            imgUrl:c2q,
+            buttonUrl: "/Qhardware"
         },
-        {
-            title: "Qiskit Summer School and Challenges",
-            description: "Quantum education - IBM Qiskit",
-            imgUrl:qisk
-        },
+        // {
+        //     title: "Qiskit Summer School and Challenges",
+        //     description: "Quantum education - IBM Qiskit",
+        //     imgUrl:qisk
+        // },
 
     ]
 
@@ -377,12 +395,14 @@ export const Projects = () => {
         {
             title: "MS in Computer Engineering",
             description: "Graduated from North Carolina State University with MS in Computer Engineering and GPA - 3.963",
-            imgUrl:ncsu
+            imgUrl:ncsu,
+            buttonUrl:"/Graduate"
         },
         {
             title: "BE in Electronics and Communication Engineering",
             description: "Graduated from Sri Sivasubramaniya Nadar College of Engineer with BE in ECE and GPA - 8.54/10",
-            imgUrl:ssn_logo
+            imgUrl:ssn_logo,
+            buttonUrl: "/Undergraduate"
         },
     ]
 
@@ -390,32 +410,35 @@ export const Projects = () => {
         {
             title: "Graduate Intern - Backend design team",
             description: "Graduate Co-Op Intern from June 2022 to May 2023",
-            imgUrl:intel_logo
+            imgUrl:intel_logo,
+            buttonUrl:"/Exp1"
         },
         {
             title: "Software developer",
             description: "Worked as a Software developer (System Engineering) - 1 year and 4 months",
-            imgUrl:tcs_logo
+            imgUrl:tcs_logo,
+            buttonUrl: "/Exp2"
         },
         {
             title: "Firmware developer",
             description: "Interned at Enability foundation for rehabilitation - IITM startup - 3 months",
-            imgUrl:en_logo
+            imgUrl:en_logo,
+            buttonUrl: "/Exp3"
         },
-        {
-            title: "Firmware developer",
-            description: "Interned at CSIR-CEERI - Central government project - 2 months",
-            imgUrl:csir_logo
-        },
+        // {
+        //     title: "Firmware developer",
+        //     description: "Interned at CSIR-CEERI - Central government project - 2 months",
+        //     imgUrl:csir_logo
+        // },
     ]
 
     return (
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p>sdasdasdad asdasdadsa asdasdasda a sda sdasdas</p>
+                        <br/>
                         <Tab.Container id="project-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>

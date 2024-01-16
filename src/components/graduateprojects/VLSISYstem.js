@@ -1,5 +1,6 @@
 import {ProjectNavbar} from "../graduateprojects/ProjectNavbar";
-import SramprojectFile from "../../assets/pdffiles/sram_project.pdf";
+import SramprojectFile1 from "../../assets/pdffiles/ECE546_milestone_1.pdf";
+import SramprojectFile2 from "../../assets/pdffiles/ECE546_milestone_2.pdf";
 
 export const VLSISYstem = () => {
     return (
@@ -20,7 +21,14 @@ export const VLSISYstem = () => {
                 <br/>
                 <div className="row">
                     <div className="col-sm">
-                        <embed src={SramprojectFile} width="1000px" height="700px" />
+                        <embed src={SramprojectFile1} width="1000px" height="700px" />
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div className="row">
+                    <div className="col-sm">
+                        <embed src={SramprojectFile2} width="1000px" height="700px" />
                     </div>
                 </div>
             </div>

@@ -319,7 +319,25 @@ nav.navbar {
 }
 .ai_project_coding
 {
-  background-image: url('./assets/images/coding_background.png');
+  background-image: url('./assets/images/coding_background1.png');
+  height: 100vh;
+  background-size: cover;
+}
+.qc_project
+{
+  background-image: url('./assets/images/ibm_qc_background.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+.education
+{
+  background-image: url('./assets/images/education_background.png');
+  height: 100vh;
+  background-size: cover;
+}
+.experience
+{
+  background-image: url('./assets/images/exp_background.png');
   height: 100vh;
   background-size: cover;
 }

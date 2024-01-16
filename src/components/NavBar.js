@@ -49,7 +49,7 @@ export const NavBar = () => {
                         <div className="social-icon">
                             <SocialIcon href="https://github.com/RamAIbot" url="www.github.com" style={{padding:'0px',marginTop:'0px',marginBottom:'0px',marginRight:'5px',width:'35px', height:'35px'}}/>
                             <SocialIcon href="https://www.linkedin.com/in/ramachandran-ss-162716144" url="www.linkedin.com" style={{padding:'0px',marginTop:'0px',marginBottom:'0px',width:'30px', height:'30px',marginRight: '20px'}}/>
-                            <button type="button" className="btn btn-outline-light"onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                            {/*<button type="button" className="btn btn-outline-light"onClick={() => console.log('connect')}><span>Let's Connect</span></button>*/}
                         </div>
 
                     </span>

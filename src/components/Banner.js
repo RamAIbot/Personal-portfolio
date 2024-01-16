@@ -48,8 +48,9 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline"> Welcome to my Portfolio</span>
                         <h1 style={{textAlign:'left'}}>{`Hi! I'm Ram`} <br/><span className="txt-rotate"><span className="wrap">{text}</span></span></h1>
-                        <p style={{textAlign:'left'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button type="button" className="btn btn-outline-info" onClick={() => console.log('banner connect')}>Let's Connect &nbsp;<ArrowRightCircle size={25}/></button>
+                        <p style={{textAlign:'left',color:"white"}}>I'm Ramachandran Sekanipuram Srikanthan, a Computer Engineer from NC State. My passion for hardware engineering ignited during undergrad, where I led three impactful project initiatives, learning from each. Success comes from my drive to solve complex problems. As a grad student, I specialize in RTL design and verification, and Computer architecture. I'm a self-taught software programmer with projects in autonomous vehicles. Beyond engineering, I'm an avid pianist, finding music's structured creativity enlightening and empowering my work. The blend of logic, emotion, and intuition in both fields fascinates me.</p>
+
+                        {/*<button type="button" className="btn btn-outline-info" onClick={() => console.log('banner connect')}>Let's Connect &nbsp;<ArrowRightCircle size={25}/></button>*/}
                     </Col>
                 </Row>
                 {/*<Row>*/}

@@ -39,6 +39,27 @@ import {Navigation} from "./components/AIprojects/Navigation";
 import {ContinousControl} from "./components/AIprojects/ContinousControl";
 import {Collaboration} from "./components/AIprojects/Collaboration";
 import {Ecommerce} from "./components/AIprojects/Ecommerce";
+import {IgemHypo1} from "./components/qcprojects/IgemHypo1";
+import {IgemHypo2} from "./components/qcprojects/IgemHypo2";
+import {MZM} from "./components/qcprojects/MZM";
+import {Qosf} from "./components/qcprojects/Qosf";
+import {Opensource1} from "./components/qcprojects/Opensource1";
+import {Opensource2} from "./components/qcprojects/Opensource2";
+import {QNLP} from "./components/qcprojects/QNLP";
+import {HaqsQML} from "./components/qcprojects/HaqsQML";
+import {AmpEmbedding} from "./components/qcprojects/AmpEmbedding";
+import {Quantumdots} from "./components/qcprojects/Quantumdots";
+import {Qhardware} from "./components/qcprojects/Qhardware";
+import {Graduate} from "./components/education/Graduate";
+import {Undergraduate} from "./components/education/Undergraduate";
+import {Exp1, exp1} from "./components/experience/Exp1";
+import {Exp2} from "./components/experience/Exp2";
+import {Exp3} from "./components/experience/Exp3";
+import {SIH} from "./components/hardwareprojects/SIH";
+import {EmbeddedSystems} from "./components/hardwareprojects/EmbeddedSystems";
+import {NLPProject} from "./components/AIprojects/NLPProject";
+import {TamilClassification} from "./components/AIprojects/TamilClassification";
+import {FuProject} from "./components/qcprojects/FuProject";
 
 
 function App() {
@@ -65,6 +86,8 @@ function App() {
                 <Route path="/RiscvRTL" element={<RiscvRTL/>}/>
                 <Route path="/RTLSynthesis" element={<RTLSynthesis/>}/>
                 <Route path="/PhysicalDesign" element={<PhysicalDesign/>}/>
+                <Route path="/EmbeddedSystems" element={<EmbeddedSystems/>}/>
+                <Route path="/SIH" element={<SIH/>}/>
 
                 <Route path="/Lanedetection" element={<Lanedetection/>}/>
                 <Route path="/Advancedlane" element={<Advancedlane/>}/>
@@ -82,7 +105,29 @@ function App() {
                 <Route path="/Navigation" element={<Navigation/>}/>
                 <Route path="/ContinousControl" element={<ContinousControl/>}/>
                 <Route path="/Collaboration" element={<Collaboration/>}/>
+                <Route path="/NLPProject" element={<NLPProject/>}/>
+                <Route path="/TamilClassification" element={<TamilClassification/>}/>
                 <Route path="/Ecommerce" element={<Ecommerce/>}/>
+
+                <Route path="/IgemHypo1" element={<IgemHypo1/>}/>
+                <Route path="/IgemHypo2" element={<IgemHypo2/>}/>
+                <Route path="/MZM" element={<MZM/>}/>
+                <Route path="/Qosf" element={<Qosf/>}/>
+                <Route path="/Opensource1" element={<Opensource1/>}/>
+                <Route path="/Opensource2" element={<Opensource2/>}/>
+                <Route path="/QNLP" element={<QNLP/>}/>
+                <Route path="/HaqsQML" element={<HaqsQML/>}/>
+                <Route path="/AmpEmbedding" element={<AmpEmbedding/>}/>
+                <Route path="/Quantumdots" element={<Quantumdots/>}/>
+                <Route path="/FuProject" element={<FuProject/>}/>
+                <Route path="/Qhardware" element={<Qhardware/>}/>
+
+                <Route path="/Graduate" element={<Graduate/>}/>
+                <Route path="/Undergraduate" element={<Undergraduate/>}/>
+
+                <Route path="/Exp1" element={<Exp1/>}/>
+                <Route path="/Exp2" element={<Exp2/>}/>
+                <Route path="/Exp3" element={<Exp3/>}/>
             </Routes>
         </div>
     )
