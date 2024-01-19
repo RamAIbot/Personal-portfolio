@@ -3,12 +3,17 @@ import "react-multi-carousel/lib/styles.css";
 import {Col, Container, Row} from "react-bootstrap";
 import c_meter from '../assets/images/c_skill.png'
 import cpp_meter from '../assets/images/Cpp_skill.png'
-import java_meter from '../assets/images/java_skill.png'
+import java_meter from '../assets/images/java_skill1.png'
 import perl_meter from '../assets/images/perl_skill.png'
 import python_meter from '../assets/images/python_skill.png'
 import sv_skill_meter from '../assets/images/sv_skill.png'
 import uvm_skill_meter from '../assets/images/uvm_skill.png'
 import verilog_skill_meter from '../assets/images/verilog_skill.png'
+import angularjs from '../assets/images/angular.png'
+import reactjs from '../assets/images/react.png'
+import aws from '../assets/images/aws.png'
+import springboot from '../assets/images/springboot.png'
+import js from '../assets/images/js.png'
 
 export const Skills = () => {
     const responsive = {
@@ -70,7 +75,27 @@ export const Skills = () => {
 
                                 </div>
                                 <div className="item">
+                                    <img src={springboot} alt="Image"/>
+
+                                </div>
+                                <div className="item">
                                     <img src={perl_meter} alt="Image"/>
+
+                                </div>
+                                <div className="item">
+                                    <img src={js} alt="Image"/>
+
+                                </div>
+                                <div className="item">
+                                    <img src={reactjs} alt="Image"/>
+
+                                </div>
+                                <div className="item">
+                                    <img src={angularjs} alt="Image"/>
+
+                                </div>
+                                <div className="item">
+                                    <img src={aws} alt="Image"/>
 
                                 </div>
                             </Carousel>
